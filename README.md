@@ -22,16 +22,16 @@ koordinierte Zusammenarbeit von Gruppen
 allgemein: Vor- und Nachteile
 technische Zusammenarbeit: 
 Dateiebene: Repository, Austausch mit git; 
-(im Praktikum informell, aber definierter Stand)
+im Praktikum informell, aber definierter Stand
 inhaltlich: Schnittstellen
 HTML
 Grundlagen
-Dateiaufbau (Head, Body, Einbinden von css und js)
+Dateiaufbau Head, Body, Einbinden von css und js
 Inhaltselemente: Text, Sonderzeichen, Basisformatierung
-Gliederungselemente: Header <H1> bis <H6>, 
-		<table> mit <tr> und <td>, <div>, span, <p>, <br>
-Verknüpfung: <a>, absolut, relativ
-Steuerelemente: buttons, input (S27)
+Gliederungselemente: Header <H1 bis <H6, 
+		<table mit <tr und <td, <div, span, <p, <br
+Verknüpfung: <a, absolut, relativ
+Steuerelemente: buttons, input S27
 Kommentare
 Grafiken: Unicode-Symbole, png-jpg-gif-Dateien
 <img>, background-image
