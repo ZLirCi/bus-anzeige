@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bus-Anzeige</title>
+	<link type="text/css" rel="stylesheet" href="bus-anzeige.css">
+	<script src="bus-anzeige.js"></script>
+</head>
+
+<body>
+    <h2> Bus-Anzeige </h2>
+    <div style="background-image:url('Strasse.png');width:1360px;height:600px;">
+	<!-- kann mit style background-size skaliert werden, z.B. background-size:680px 300px -->
+	<div id="busContainer">
+	   <img src="bus1.png" style="rotate:340deg;width:240px;height:120px;opacity:0.8">
+	   <div id="gasBremseArea">
+		<span id="bremseArea"><button id="buttonBremse" onclick="bremsen()">Bremse</button></span>
+		<span id="gasArea"><button id="buttonGas" onclick="gasgeben()">Gas</button></span>			   </div>
+	   <span id="geschwindigkeit"> 0 km/h</span> 
+	</div>
+	<div id="endeArea"><span id="endePunkt">H</span></div>
+	<div id="AnzeigeArea">
+            <table id="Anzeige">
+		<tr><td>Uhrzeit: <span id="ZeitReal"> </span></td></tr>
+		<tr id="Ankunft"><td>Ankunft Bus 199</td></tr>
+		<tr><td>geplant: &nbsp;<span id="ZeitGeplant"> </span></td></tr>
+		<tr><td>vorauss.: <span id="ZeitVoraus"> </span></td></tr>
+	    </table>
+	</div> 
+    </div>
+    <p id="bottomLine"><span id="meldung">Los geht es mit Klick auf Gas!</span>
+	<button id="neuStart" onclick="neuStart()">Neustart</button>
+    <a target="_blank" id="refAnleitung" href="anleitung.htm">Info & Benutzungsanleitung</a>
+</body>
+
+</html>

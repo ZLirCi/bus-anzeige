@@ -1,0 +1,116 @@
+
+html {
+    background-color: #f8f8ff;
+	font-weight: 600;
+	font-size: 110%;
+}
+
+#bottomLine {
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+#meldung {
+    display: inline-block;
+    margin-right: 10px;	
+    border: 1px solid #444;
+    border-radius: 2px;
+    padding: 2px;
+    color: #bb4444;
+    min-width: 240px;
+    text-align: center;	
+}
+
+#neuStart {
+    padding: 5px;
+    margin-left: 100px;	
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 80%; 
+}
+
+#refAnleitung {
+    margin-left: 100px;
+    padding: 5px;
+    background-color: #def;
+}
+
+#busContainer {
+  position: absolute;
+  top : 405px; 
+  left : 20px; 
+  color: white;
+  width: 280px;
+  height: 140px;
+}
+
+#gasBremseArea {
+  position: absolute;
+  top: 35px;
+  left: 80px;
+  opacity: 0.8;
+}
+
+#gasBremseArea button {
+  padding: 5px;
+  width: 60px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 80%;  
+}
+#bremseArea button {
+  background-color: #ecc;  
+}
+#bremseArea button:hover {
+  background-color: #dbb;
+}
+#gasArea button {
+  background-color: #cec;  
+}
+#gasArea button:hover {
+  background-color: #bdb;
+}
+
+#geschwindigkeit {
+  position: absolute;
+  bottom: 110px;
+  right: 100px;
+  display: inline-block;
+  border: 1px solid #444;
+  border-radius: 2px;
+  padding: 3px;
+  color: #000;
+  background-color: #cce;
+  width: 65px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+#AnzeigeArea {
+  position: absolute;
+  top: 240px;
+  left: 1200px;
+  display: inline-block;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 2px;
+  color: #ccc;
+  background-color: #444;
+}
+
+#Ankunft {
+  color: #cc6;
+}
+
+#endeArea {
+  position: absolute;
+  top: 215px;
+  left: 1200px;
+}
+#endePunkt {
+  padding: 6px;
+  border: 2px solid #080;
+  border-radius: 8px;
+  color: #080;
+  background-color: #dd4;  
+}
